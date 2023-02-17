@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #33475b;
 }
 
+
 .container {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
