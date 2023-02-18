@@ -17,3 +17,31 @@ body {
     padding-left: 6%;
     padding-right: 6%;
 }
+
+footer {
+    background: #ffffff;
+    padding: 24px 0;
+}
+
+.section-footer {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.logo-desenvolve-detalhata {
+    margin-left: 329.51px;
+}
+
+.footer-icons {
+    justify-items: end;
+    margin-left: 66.05px;
+}
+
+.footer-paragrafo {
+    margin-left: 280px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
