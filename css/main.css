@@ -1,19 +1,55 @@
-.main_box {
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudo-main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;     
+
+    justify-content: space-between;
 }
 
-.container_box{
-    height: 444px;
-    width: 400px;
+.container-box{
+    background: #ffffff;
+    
+    height: 400px;
+    width: 410px;
 
-    
-    
     border-radius: 4px;
 
-    background: #ffffff;
-
-    margin: 40px 40px 0 0px;
+    margin: 1%;
+    padding: 32px;
 }
+
+.container-box:nth-child(3n) { /* tira a margem dos elementos que estão numa posição divisivel por quatro*/
+    margin-right: 0;
+}
+
+.container-box:nth-child(3n+1) { /* tira a margem dos elementos que estão numa posição divisivel por quatro + 1, ou seja, o elemento que vem em sequida*/
+    margin-left: 0;
+}
+
+.title-box {
+    color: #364372;
+    font-weight: 600;
+    font-size: 24px;
+
+    padding-bottom: 24px;
+}
+
+.paragrafo-box {
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 110px;
+}
+
+.link-box {
+    border: 1px solid #264FEC;
+    color: #264FEC;
+    padding: 14px 18px;
+}
+
+
